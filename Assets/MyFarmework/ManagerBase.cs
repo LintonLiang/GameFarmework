@@ -36,6 +36,7 @@ public class ManagerBase : MonoBase{
             do
             {
                 temp.data.ProcessEvent(tempMsg);
+                temp = temp.NextNode;
             } while (temp !=null);
         }
     }
@@ -69,6 +70,7 @@ public class ManagerBase : MonoBase{
             }
 
             temp.NextNode = node;
+            
         }
 
     }

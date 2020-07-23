@@ -11,6 +11,9 @@ public class MsgCenter : MonoBehaviour {
     private void Awake()
     {
         Instance = this;
+        gameObject.AddComponent<NPCManager>();
+        gameObject.AddComponent<UIManager>();
+        
     }
     // Use this for initialization
     void Start () {

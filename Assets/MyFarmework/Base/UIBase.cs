@@ -27,5 +27,10 @@ public class UIBase : MonoBase {
             UnregistSelf(this,msgIds);
         }
     }
+    public void SendMsg(MessageBase message)
+    {
+        UIManager.Instance.SendMsg(message);
+
+    }
 
 }

@@ -26,4 +26,9 @@ public class NPCBase : MonoBase {
             UnregistSelf(this, msgIds);
         }
     }
+    public void SendMsg(MessageBase message)
+    {
+        NPCManager.Instance.SendMsg(message);
+
+    }
 }
