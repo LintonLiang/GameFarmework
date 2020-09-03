@@ -1,2 +1,4 @@
+Common=========>scenes/common.ld
 SceneOne=========>scenes/sceneone.ld
+SceneTwo=========>scenes/scenetwo.ld
 Scenes=========>scenes.ld

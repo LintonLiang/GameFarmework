@@ -1,10 +1,18 @@
 ManifestFileVersion: 0
-CRC: 1167419394
+CRC: 4265334881
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: scenes/sceneone.ld
-      Dependencies: {}
+      Dependencies:
+        Dependency_0: scenes/common.ld
     Info_1:
       Name: scenes.ld
+      Dependencies: {}
+    Info_2:
+      Name: scenes/scenetwo.ld
+      Dependencies:
+        Dependency_0: scenes/common.ld
+    Info_3:
+      Name: scenes/common.ld
       Dependencies: {}

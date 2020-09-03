@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 8ad247a6e77dcbf45b7f98b56f579a68
+guid: f7f86ebc3e22efe44b65cfdf84c9b929
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 
-  assetBundleName: scenes/sceneone
+  assetBundleName: scenes/common
   assetBundleVariant: ld
